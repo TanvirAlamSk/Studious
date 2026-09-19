@@ -36,7 +36,7 @@ const HowItWorks = () => {
         ))}
       </div>
 
-      <div className="bg-[#14231F] rounded-lg p-12 mt-40">
+      <div className="bg-[#14231F] rounded-lg p-6 md:p-12 mt-40">
         <div className="text-[#D99A22] flex items-center text-sm">
           <LuSparkles className="w-6 h-6 m-2" />
           AI day planning
