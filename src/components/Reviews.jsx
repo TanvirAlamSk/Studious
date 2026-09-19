@@ -32,7 +32,7 @@ const Reviews = () => {
     <div className="mb-12">
         <TitleSubtitle title="Students are getting more done" subtitle=""></TitleSubtitle>
     </div>
-     <div className="grid grid-cols-3 md:gap-4 max-w-280 mx-auto">
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-280 mx-auto">
       {reviews.map((review) => (
         <div className="card bg-white shadow-sm" key={review.id}>
           <div className="card-body">

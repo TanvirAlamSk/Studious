@@ -1,12 +1,15 @@
 import React from "react";
 import Navber from "./components/navber";
-import Rough from "./components/Rough";
 import Banner from "./components/Banner";
 import Status from "./components/Status";
 import Studying from "./components/Studying";
 import Feature from "./components/Feature";
 import HowItWorks from "./components/HowItWorks";
 import Reviews from "./components/Reviews";
+import Pricing from "./components/Pricing";
+import Questions from "./components/Questions";
+import NextStudyCard from "./components/NextStudyCard";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -19,14 +22,11 @@ const App = () => {
         <Feature></Feature>
         <HowItWorks></HowItWorks>
         <Reviews></Reviews>
+        <Pricing></Pricing>
+        <Questions></Questions>
+        <NextStudyCard></NextStudyCard>
       </div>
-      {/* <Rough></Rough> */}
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
+      <Footer></Footer>
     </div>
   );
 };
