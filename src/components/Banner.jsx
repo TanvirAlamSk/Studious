@@ -3,7 +3,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="space-y-8 text-gray-600">
+    <section className="space-y-8 text-gray-600">
       <p className="p-1 px-4 mt-20 bg-white text-sm rounded-3xl w-fit mx-auto border border-gray-300">
         Built for students who like to see progress
       </p>
@@ -27,7 +27,7 @@ const Banner = () => {
         </button>
       </span>
 
-      <div className="card w-110 bg-white shadow-sm mx-auto mt-10">
+      <div className="card max-w-110 bg-white shadow-sm mx-auto mt-10 z-">
         <div className="card-body">
           <div className="flex justify-between">
             <span className="text-md">Today's progresso</span>
@@ -54,7 +54,7 @@ const Banner = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

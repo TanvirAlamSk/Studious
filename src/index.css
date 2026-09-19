@@ -9,6 +9,5 @@ body{
     background-image: linear-gradient(to right, #DCDED3 1px, transparent 1px),
     linear-gradient(to bottom, #DCDED3 1px, transparent 1px);
     background-size: 26px 26px;
-    background-attachment: fixed;
-     font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Bricolage Grotesque", sans-serif;
 }
