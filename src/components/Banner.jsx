@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Banner = () => {
   return (
     <section className="space-y-8 text-gray-600">
-      <p className="p-1 px-4 mt-20 bg-white text-sm rounded-3xl w-fit mx-auto border border-gray-300">
+      <p className="p-1 px-2.5 md:px-4 mt-10 md:mt-15 lg:mt-20 bg-white text-sm rounded-3xl w-fit mx-auto border border-gray-300">
         Built for students who like to see progress
       </p>
 
@@ -18,7 +18,7 @@ const Banner = () => {
         time you check one off. No spreadsheets, no guessing what to study next.
       </p>
 
-      <span className="flex gap-2 justify-center items-center">
+      <span className="flex flex-col md:flex-row gap-2 justify-center items-center">
         <button className="bg-[#0B6553] text-white px-4 py-3 rounded-lg text-md font-lg">
           Start for Free <FaArrowRight className="inline ml-1" />
         </button>
